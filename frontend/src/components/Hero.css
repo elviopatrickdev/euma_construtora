@@ -1,0 +1,85 @@
+.hero {
+    position: relative;
+    background-image: url('../assets/hero-bg-mobile.png');
+    background-size: cover;
+    background-position: bottom;
+    height: 85vh;
+    width: 100%;
+    border-radius: 36px;
+    overflow: hidden;
+}
+
+/* Tablet (iPad - ≥768px) */
+@media (min-width: 768px) {
+    .hero {
+        background-image: url('../assets/hero-bg-tablet.png');
+        background-size: cover;
+        background-position: bottom;
+        height: 90vh;
+    }
+}
+
+/* Laptop (≥1024px) */
+@media (min-width: 1024px) {
+    .hero {
+        background-image: url('../assets/hero-bg-laptop.png');
+        background-size: cover;
+        background-position: bottom;
+        height: 85vh;
+    }
+}
+
+
+/* Desktop (≥1440px) */
+@media (min-width: 1440px) {
+    .hero {
+        background-image: url('../assets/hero-bg-desktop.png');
+        background-size: cover;
+        background-position: bottom;
+    }
+}
+
+h1 {
+    font-family: var(--font-title);
+}
+
+.hero-subtitle {
+    font-family: var(--font-title);
+    color: var(--color-primary);
+}
+
+.btn-projects {
+    display: inline-flex;
+    background-color: var(--color-white);
+    color: var(--color-gray);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-projects:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn-projects i {
+    transform: rotate(-45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-projects:hover i {
+    transform: rotate(0deg);
+}
+
+.hero-contact-content {
+    position: absolute;
+    bottom: 16px;
+    right: 40px;
+    text-align: right;
+}
+
+.hero-contact {
+    color: var(--color-gray);
+
+}

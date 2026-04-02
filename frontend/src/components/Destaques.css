@@ -1,0 +1,55 @@
+.project-text {
+    font-family: var(--font-title);
+    font-size: 20px;
+}
+
+.project-text span {
+    font-family: var(--font-text);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.link-projects {
+    display: inline-flex;
+    background-color: var(--color-white);
+    color: var(--color-gray);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.link-projects:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.link-projects i {
+    transition: transform 0.3s ease;
+}
+
+.link-projects:hover i {
+    transform: translateX(5px);
+}
+
+.project-card {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.9s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.6s ease;
+}
+
+.project-card:hover {
+    color: var(--color-primary);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+}
+
+.project-card img {
+    transition: box-shadow 0.4s ease;
+}
+
+.project-card:hover img {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}

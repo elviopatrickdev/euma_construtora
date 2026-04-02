@@ -1,0 +1,15 @@
+.btn-details {
+    display: inline-flex;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-details:hover {
+    color: var(--color-white);
+    background-color: var(--color-gray);
+    transform: scale(1.02);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}

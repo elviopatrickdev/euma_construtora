@@ -1,0 +1,34 @@
+.container-testimonials {
+    background-color: var(--color-gray);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.aspas {
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.carousel-wrapper {
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+}
+
+.carousel-btn {
+  font-size: 42px;
+  color: var(--color-white);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.carousel-btn:hover {
+  transform: scale(1.15);
+  color: rgba(255,255,255,0.7);
+}
+
+.carousel-btn:active {
+  transform: scale(0.9);
+}

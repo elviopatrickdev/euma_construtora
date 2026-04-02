@@ -1,0 +1,33 @@
+.footer-img {
+    object-position: 30% 65%;
+}
+
+.footer-img-text {
+    position: absolute;
+    font-family: var(--font-title);
+}
+
+.footer-content p {
+    color: var(--color-gray);
+}
+
+ul a {
+    color: #4B5563;
+    text-decoration: none;
+}
+
+ul a:hover, .footer-rights a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.social-link{
+color:#2d2d2d;
+display:inline-flex;
+transition:transform .3s ease, color .3s ease;
+}
+
+.social-link:hover {
+color:var(--color-primary);
+transform:scale(1.2);
+}
