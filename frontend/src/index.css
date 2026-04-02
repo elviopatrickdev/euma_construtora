@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@layer base {
+
+    /* Globals */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        color: var(--color-dark);
+        background-color: var(--color-white);
+        font-family: var(--font-text);
+        font-size: 14px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+}
+
+:root {
+
+    /* Fonts */
+    --font-title: 'Bebas Neue', sans-serif;
+    --font-text: 'Inter', sans-serif;
+
+    /* Colors */
+    --color-primary: #71BC42;
+    --color-white: #ffffff;
+    --color-gray: #2D2D2D;
+    --color-dark: #121212;
+
+}
+
+h2 {
+    font-family: var(--font-text);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+h3 {
+    font-family: var(--font-title);
+    font-size: 28px;
+    color: var(--color-gray);
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: var(--font-text);
+    color: var(--color-gray);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+section {
+    scroll-margin-top: 4rem;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 24px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    h4 {
+        font-size: 32px;
+    }
+
+    h5 {
+        font-size: 32px;
+    }
+}
