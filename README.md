@@ -87,13 +87,13 @@ O projeto utiliza a stack **MERN**:
 
 ### 1. Clonar o Repositório
 ```bash
-git clone [https://github.com/seu-usuario/euma-portfolio.git](https://github.com/elviopatrickdev/euma_construtora.git)
+git clone (https://github.com/elviopatrickdev/euma_construtora.git)
 cd euma_construtora
 ```
 ### 2. Configurar o Backend
 ```Bash
 cd backend
-npm install
+npm install express cors mongoose bcryptjs jsonwebtoken dotenv
 ```
 
 ### 3. Crie um ficheiro .env na pasta backend/ seguindo o modelo:
@@ -109,7 +109,7 @@ ADMIN_TOKEN=seu_token_secreto
 ### 4. Configurar o Frontend
 ```Bash
 cd ../frontend
-npm install
+npm install axios react-router-dom
 ```
 
 ### 5. Crie um ficheiro .env na pasta frontend/ seguindo o modelo:
