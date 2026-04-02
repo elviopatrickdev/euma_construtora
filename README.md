@@ -1,7 +1,7 @@
 <h1 align="center">🏗️ EUMA - Construção e Engenharia, Lda </h1>
 
 <p align="center">
-<img src="public/assets/eumaGitHub.png" width="500">
+<img src="frontend/src/assets/eumaGitHub.png" width="500">
 </p>
 
 Repositório do website oficial e sistema de gestão de portfólio da **EUMA - Construção e Engenharia, Lda**. Uma plataforma robusta desenvolvida para apresentar projetos de engenharia civil, oferecendo uma experiência interativa e profissional aos clientes.
@@ -27,10 +27,10 @@ O website funciona como um portfólio digital dinâmico. Ele permite que a empre
 ![ListProjects](frontend/src/assets/listProjects.png)
 
 ### Projeto Singular
-![ProjectDetails](frontend/assets/src/singleProject.png)
+![ProjectDetails](frontend/src/assets/singleProject.png)
 
 ### Painel Admin
-![Dashboard](frontend/assets/src/dashboard.png)
+![Dashboard](frontend/src/assets/dashboard.png)
 
 ## 📂 Estrutura de Ficheiros
 
