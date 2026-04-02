@@ -36,6 +36,7 @@ O website funciona como um portfólio digital dinâmico. Ele permite que a empre
 
 ```text
 euma_construtora/
+├── README.md
 │
 ├── frontend/
 │     │
@@ -53,8 +54,8 @@ euma_construtora/
 │     ├── .env.example
 │     ├── eslint.config.js
 │     ├── index.html
-│     ├── package.json
-│     └── README.md
+│     └── package.json
+│     
 │
 └── backend/
       ├── src/
